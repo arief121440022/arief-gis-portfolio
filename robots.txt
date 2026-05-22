@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://arief121440022.github.io/arief-gis-portfolio/sitemap.xml
