@@ -1,0 +1,38 @@
+@media (max-width: 960px) {
+  .hero-grid,
+  .project-grid,
+  .skills-grid,
+  .stats-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 760px) {
+  .menu-toggle { display: block; }
+
+  .nav-menu {
+    position: absolute;
+    top: 72px;
+    right: 1rem;
+    width: min(280px, calc(100% - 2rem));
+    background: #fff;
+    border: 1px solid #d8e4f0;
+    border-radius: 12px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.13);
+    padding: 0.7rem;
+    display: none;
+    flex-direction: column;
+  }
+
+  .nav-menu.show { display: flex; }
+
+  .hero-grid,
+  .project-grid,
+  .skills-grid,
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .section { padding: 3.4rem 0; }
+  .timeline-content { padding-left: 0.9rem; }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "arief-gis-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Professional portfolio website for Arief Ramadhan, GIS Analyst & Geospatial Specialist",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "check": "node --check js/script.js && node --check js/form-handler.js"
+  },
+  "keywords": [
+    "portfolio",
+    "gis",
+    "geospatial",
+    "frontend"
+  ],
+  "author": "Arief Ramadhan",
+  "license": "MIT"
+}
