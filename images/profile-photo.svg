@@ -1,0 +1,55 @@
+<svg width="720" height="720" viewBox="0 0 720 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="72" y1="40" x2="650" y2="680" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0E1F3A"/>
+      <stop offset="1" stop-color="#132D50"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="186" y1="388" x2="536" y2="676" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FDFEFF"/>
+      <stop offset="1" stop-color="#E5EBF3"/>
+    </linearGradient>
+    <radialGradient id="glowGreen" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(566 150) rotate(144.274) scale(238 286)">
+      <stop stop-color="#00FF88" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#00FF88" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowBlue" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(178 594) rotate(-36.36) scale(266 266)">
+      <stop stop-color="#00CCFF" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#00CCFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="720" height="720" rx="40" fill="url(#bg)"/>
+  <rect width="720" height="720" rx="40" fill="url(#glowGreen)"/>
+  <rect width="720" height="720" rx="40" fill="url(#glowBlue)"/>
+
+  <g opacity="0.25">
+    <path d="M72 620H648" stroke="#D0E1FF" stroke-width="1"/>
+    <path d="M72 560H648" stroke="#D0E1FF" stroke-width="1"/>
+    <path d="M72 500H648" stroke="#D0E1FF" stroke-width="1"/>
+    <path d="M72 440H648" stroke="#D0E1FF" stroke-width="1"/>
+    <path d="M72 380H648" stroke="#D0E1FF" stroke-width="1"/>
+    <path d="M72 320H648" stroke="#D0E1FF" stroke-width="1"/>
+    <path d="M72 260H648" stroke="#D0E1FF" stroke-width="1"/>
+    <path d="M120 120V648" stroke="#D0E1FF" stroke-width="1"/>
+    <path d="M180 120V648" stroke="#D0E1FF" stroke-width="1"/>
+    <path d="M240 120V648" stroke="#D0E1FF" stroke-width="1"/>
+    <path d="M300 120V648" stroke="#D0E1FF" stroke-width="1"/>
+    <path d="M360 120V648" stroke="#D0E1FF" stroke-width="1"/>
+    <path d="M420 120V648" stroke="#D0E1FF" stroke-width="1"/>
+    <path d="M480 120V648" stroke="#D0E1FF" stroke-width="1"/>
+    <path d="M540 120V648" stroke="#D0E1FF" stroke-width="1"/>
+    <path d="M600 120V648" stroke="#D0E1FF" stroke-width="1"/>
+  </g>
+
+  <g>
+    <ellipse cx="360" cy="646" rx="180" ry="30" fill="#000A19" fill-opacity="0.5"/>
+    <path d="M204 640C218 538 268 468 360 468C452 468 502 538 516 640H204Z" fill="url(#shirt)"/>
+    <path d="M300 496L360 582L420 496" fill="#182A46"/>
+    <path d="M338 500H382L376 640H344L338 500Z" fill="#0D172B"/>
+    <path d="M282 378C282 320 317 274 360 274C403 274 438 320 438 378V406C438 467 403 514 360 514C317 514 282 467 282 406V378Z" fill="#E7B996"/>
+    <path d="M306 286C330 244 390 240 420 278C440 303 442 339 438 370C431 348 422 329 402 316C382 303 342 302 322 320C307 333 299 352 292 370C288 340 290 314 306 286Z" fill="#23120E"/>
+    <path d="M312 508L360 548L408 508L395 548L360 572L325 548L312 508Z" fill="#DADFE7"/>
+    <circle cx="360" cy="196" r="26" fill="#DDB18F"/>
+    <path d="M360 172L367 196L360 220L353 196L360 172Z" fill="#C89977"/>
+  </g>
+</svg>
