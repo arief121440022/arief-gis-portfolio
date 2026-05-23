@@ -255,7 +255,7 @@ body {
     border-radius: 50%;
     background: linear-gradient(135deg, #00ff88, #00ccff);
     z-index: -1;
-    filter: blur(0.4px);
+    filter: blur(2px);
 }
 
 .profile-photo {
