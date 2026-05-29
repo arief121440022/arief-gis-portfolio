@@ -67,25 +67,20 @@
                 </div>
             </div>
             <div class="hero-visual">
-                <div class="map-container">
-                    <svg viewBox="0 0 400 400" class="geo-animation">
-                        <circle cx="200" cy="200" r="180" fill="none" stroke="#00ff88" stroke-width="2" opacity="0.3"/>
-                        <circle cx="200" cy="200" r="150" fill="none" stroke="#00ccff" stroke-width="1.5" opacity="0.2"/>
-                        <circle cx="200" cy="200" r="120" fill="none" stroke="#ff00ff" stroke-width="1" opacity="0.15"/>
-                        <path d="M 200 200 L 300 150" stroke="#00ff88" stroke-width="2" marker-end="url(#arrowgreen)"/>
-                        <path d="M 200 200 L 250 300" stroke="#00ccff" stroke-width="2" marker-end="url(#arrowblue)"/>
-                        <circle cx="300" cy="150" r="8" fill="#00ff88"/>
-                        <circle cx="250" cy="300" r="8" fill="#00ccff"/>
-                        <defs>
-                            <marker id="arrowgreen" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
-                                <polygon points="0,0 10,5 0,10" fill="#00ff88"/>
-                            </marker>
-                            <marker id="arrowblue" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
-                                <polygon points="0,0 10,5 0,10" fill="#00ccff"/>
-                            </marker>
-                        </defs>
-                    </svg>
-                </div>
+                <figure class="dark-profile-card">
+                    <div class="dark-profile-frame">
+                        <img
+                            class="dark-profile-photo"
+                            src="profile.jpeg"
+                            alt="Foto profil Arief Ramadhan"
+                            width="720"
+                            height="720"
+                            loading="lazy"
+                            decoding="async"
+                        >
+                        <div class="dark-profile-glow" aria-hidden="true"></div>
+                    </div>
+                </figure>
             </div>
         </div>
     </section>
@@ -125,8 +120,8 @@
 
                 <div class="about-text">
                     <p>Lulusan Program Studi S1 Sains Lingkungan Kelautan dari Institut Teknologi Sumatera dengan keahlian mendalam dalam <strong>teknologi geospasial</strong> dan <strong>analisis data lingkungan</strong>.</p>
-                    <p>Saya mengkhususkan diri dalam pemetaan digital, pemrosesan data spasial, dan penginderaan jauh untuk mendukung solusi pengelolaan lingkungan yang berkelanjutan. Berpengalaman dalam pengoperasian drone, penelitian lapangan, dan analisis statistik data kelautan.</p>
-                    <p>Pendekatan saya menggabungkan <strong>riset ilmiah</strong>, <strong>teknologi modern</strong>, dan <strong>thinking yang analitis</strong> untuk menciptakan solusi berbasis data yang berdampak.</p>
+                    <p>Saya mengkhususkan diri dalam pemetaan digital, pemrosesan data spasial, dan penginderaan jauh untuk mendukung solusi pengelolaan lingkungan yang berkelanjutan.</p>
+                    <p>Pendekatan saya menggabungkan <strong>riset ilmiah</strong>, <strong>teknologi modern</strong>, dan <strong>thinking yang analitis</strong> untuk menciptakan solusi berbasis data.</p>
                 </div>
 
                 <div class="stats-grid">
@@ -247,6 +242,43 @@
                         <div class="skill-item">Remote Sensing</div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section (generated thumbnails) -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Proyek</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">Preview visual dibuat otomatis (generated) agar ringan dan konsisten.</p>
+            </div>
+
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-thumb project-thumb--blue" aria-hidden="true"></div>
+                    <i class="project-icon fas fa-layer-group"></i>
+                    <h3>GIS Mapping & Analysis</h3>
+                    <p>Analisis spasial dan pemetaan tematik dengan workflow yang reproducible.</p>
+                    <div class="project-tags"><span>GIS</span><span>Mapping</span><span>Analysis</span></div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-thumb project-thumb--green" aria-hidden="true"></div>
+                    <i class="project-icon fas fa-satellite"></i>
+                    <h3>Remote Sensing</h3>
+                    <p>Ekstraksi informasi permukaan bumi dari citra satelit dan indeks spektral.</p>
+                    <div class="project-tags"><span>RS</span><span>NDVI</span><span>Raster</span></div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-thumb project-thumb--magenta" aria-hidden="true"></div>
+                    <i class="project-icon fas fa-water"></i>
+                    <h3>Coastal & Marine</h3>
+                    <p>Studi pesisir/kelautan berbasis data lapangan dan interpretasi geospasial.</p>
+                    <div class="project-tags"><span>Marine</span><span>Coastal</span><span>Fieldwork</span></div>
+                </article>
             </div>
         </div>
     </section>
